@@ -1,0 +1,38 @@
+<view class="box">
+    <van-tabs active="{{ active }}" bind:change="onChange">
+        <van-tab title="段子" name="29">
+            <v-item wx:for="{{list}}" wx:key="{{item}}" data="{{item}}">
+                <view slot="content">
+                    <text class="character">{{item.text}}</text>
+                </view>
+            </v-item>
+        </van-tab>
+        <van-tab title="图片" name="10" >
+            <v-item wx:for="{{list}}" wx:key="{{item}}" data="{{item}}">
+                <view slot="content">
+                        <text class="character">{{item.text}}</text>
+                    <image src="{{item.image0}}" mode="aspectFit" data-url="{{item.image0}}" bind:tap="handleImage" ></image>
+                </view>
+            </v-item>
+        </van-tab>
+        <van-tab title="视频" name="41" >
+            <v-item wx:for="{{list}}" wx:key="{{item}}" data="{{item}}">
+                <view slot="content">
+                        <text class="character">{{item.text}}</text>
+                    <video src="{{item.videouri}}"  controls  hidden="{{item.videouri ? false : true}}"> </video>
+                </view>
+            </v-item>
+        </van-tab>
+        <van-tab title="语音" name="31" >
+            <v-item wx:for="{{list}}" wx:key="{{item}}" data="{{item}}">
+                <view slot="content">
+                        <text class="character">{{item.text}}</text>
+                    <audio id="" src="{{item.voiceuri}}" loop="false" controls="false" poster="{{item.bimageuri}}" name="{{item.text}}" author="{{item.name}}" 
+                        binderror="" bindplay="" bindpause="" bindtimeupdate="" bindended="">
+                        
+                    </audio>
+                </view>
+            </v-item>
+        </van-tab>
+      </van-tabs>
+</view>

@@ -1,0 +1,23 @@
+.container{
+    padding: 20rpx;
+    border-bottom: 1px solid #ebebeb;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user text{
+    font-size: 30rpx;
+    color: #949393;
+}
+image{
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 50%;
+    margin-right: 20rpx;
+}
+.title{
+  font-size: 33rpx;
+  color: #504e4e;
+  margin-left: 80rpx;
+}

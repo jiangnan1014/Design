@@ -1,0 +1,43 @@
+<view class="container">
+    <view class="box">
+        <view class="big">知识干货</view>
+        <view class="content" bindtap="handleadd" wx:for="{{results.App}}" wx:key="item.id" data-url="{{item.url}}">
+
+            <view class="user" bindtap="handleadd" data-url="{{item.url}}">
+                <image class="userimg" src="../../images/guanfang.png" mode="" binderror="" bindload=""></image>
+                <view>
+                    <text class="name">{{item.who}}:</text>
+                    <view class="time">{{item.publishedAt}}</view>
+                </view>
+            </view>
+            <view>{{item.desc}}</view>
+            <image src="{{item.images[0]}}" mode="aspectFit" binderror="" bindload=""></image>
+        </view>
+    </view>
+    <!-- <view class="box">
+        <view class="title">iOS</view>
+        <view wx:for="{{results[Ios]}}" wx:key="item.id">
+
+            <view class="user" bindtap="handleadd" data-url="{{item.url}}">
+                <text class="name">{{item.who}}:</text>
+                <view class="time">{{item.publishedAt}}</view>
+
+                <view>{{item.desc}}</view>
+                <image src="{{item.images}}" mode="aspectFit" binderror="" bindload=""></image>
+            </view>
+        </view>
+    </view>
+    <view class="box">
+        <view class="title">前端</view>
+        <view wx:for="{{results[前端]}}" wx:key="item.id">
+
+            <view class="user" bindtap="handleadd" data-url="{{item.url}}">
+                <text class="name">{{item.who}}:</text>
+                <view class="time">{{item.publishedAt}}</view>
+
+                <view>{{item.desc}}</view>
+                <image src="{{item.images}}" mode="aspectFit" binderror="" bindload=""></image>
+            </view>
+        </view>
+    </view> -->
+</view>

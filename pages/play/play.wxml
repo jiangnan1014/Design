@@ -1,0 +1,61 @@
+<van-notice-bar left-icon="https://img.yzcdn.cn/1.png" text="欢迎大家使用娱乐社区小程序，希望能得到大家的大力支持，谢谢！  ———开发者:江南" />
+<image class="icon" src="../../images/tongzhi.png" mode="" binderror="" bindload=""></image>
+<swiper circular="{{circular}}" indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}"
+  indicator-active-color="{{active}}">
+  <swiper-item wx:for="{{banners}}" wx:key="item">
+    <image class="bg" src="{{item}}"></image>
+  </swiper-item>
+</swiper>
+<view class="container">
+    <view class="content" bindtap="handleGanhuo">
+        <image class="bgimg" src="../../images/play/gh.jpg" mode=""></image>
+       <view>
+        <text class="name">干货集中营</text>
+        <view class="title">各种不一样的干货应有尽有，快来咨询吧</view>
+       </view>
+    </view>
+  <view class="content" bindtap="handleXinxian">
+      <image class="bgimg" src="../../images/play/xinxian.jpg" mode=""></image>
+     <view>
+      <text class="name">社会新鲜事</text>
+      <view class="title">禁止发布含有暴力，血腥，政治映射，黄色等内容。</view>
+     </view>
+      
+  </view>
+  <view class="content" bindtap="handleMusic">
+      <image class="bgimg" src="../../images/play/yinyue.jpg" mode=""></image>
+     <view>
+      <text class="name">音乐厅</text>
+      <view class="title">每天安静下来听听音乐，快乐每一天哦。</view>
+     </view>
+      
+  </view>
+  <view class="content" bindtap="handleMovie">
+      <image class="bgimg" src="../../images/play/fangyin.jpg" mode=""></image>
+     <view>
+      <text class="name">影视介绍</text>
+      <view class="title">了解火热电影，即将上映电影的各种新鲜详细</view>
+     </view>
+      
+  </view>
+  <view class="content" bindtap="handleTodo">
+      <image class="bgimg" src="../../images/play/todo.jpg" mode=""></image>
+     <view>
+      <text class="name">TodoList</text>
+      <view class="title">坚持每天完成每个小目标，才能是自己变得更佳优秀</view>
+     </view>
+      
+  </view>
+  <view class="content">
+      <image class="bgimg" src="../../images/play/youxi.jpg" mode=""></image>
+     <view>
+      <text class="name">游戏</text>
+      <view class="title">{{data.num}}</view>
+     </view>
+  </view>
+  <view class="content">
+     
+      <text class="name">待开发。。。</text>
+    
+  </view>
+</view>

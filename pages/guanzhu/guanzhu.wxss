@@ -1,0 +1,29 @@
+.contnet{
+    display: flex;
+    align-items: center;
+    padding: 10rpx 20rpx;
+    border-bottom: 1px solid #ebebeb;
+}
+.userimg{
+    width: 100rpx;
+    height: 100rpx;
+    margin-right: 20rpx;
+}
+.name{
+    font-size: 30rpx;
+}
+.number{
+    font-size: 20rpx;
+}
+.to,.too{
+    width: 150rpx;
+    height: 50rpx;
+    font-size: 18rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+.user{
+    width: 300rpx;
+}

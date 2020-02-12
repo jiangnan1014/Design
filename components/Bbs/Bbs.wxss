@@ -1,0 +1,18 @@
+.container{
+    padding: 20rpx;
+    border-bottom: 1px solid #ebebeb;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.bgimg{
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 20rpx;
+    margin-right: 30rpx;
+}
+.title{
+    font-size: 24rpx;
+    color: #9b9a9a;
+}

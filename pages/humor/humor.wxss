@@ -1,0 +1,8 @@
+/* pages/humor/humor.wxss */
+.box{
+    background: #dfdddd;
+}
+.character{
+    color: #6e6c6c;
+    font-size: 35rpx;
+}

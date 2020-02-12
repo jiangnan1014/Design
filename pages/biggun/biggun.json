@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-sidebar": "/vant-ui/sidebar/index",
+    "van-sidebar-item": "/vant-ui/sidebar-item/index",
+    "v-item":"/components/User/User"
+  },
+  "navigationBarBackgroundColor":"#333",
+  "navigationBarTitleText": "达人"
+}

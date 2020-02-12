@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-item":"/components/Item/Item" 
+  },
+  "navigationBarBackgroundColor":"#333",
+  "navigationBarTitleText": "入口"
+}

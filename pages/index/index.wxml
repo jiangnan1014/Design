@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+      <block wx:else>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </block>
+    </view> -->
+  <view class="na">
+    <image class="bg" src="../../images/guanfang.png" mode=""></image>
+    <text class="title">娱乐社区</text>
+  </view>
+  <view class="usermotto">
+    <view class="content">
+      <view>获取你的昵称、头像、地区及性别</view>
+      <view class="box">
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <div>
+          <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+          <view class="namea">微信个人信息</view>
+        </div>
+      </view>
+      <view class="bottom">
+        <button class="user-motto" bind:tap="handleToggle">取消</button>
+        <button class="user-motto" bind:tap="handleToggle">确定</button>
+      </view>
+    </view>
+
+  </view>
+</view>

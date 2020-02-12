@@ -1,0 +1,90 @@
+.user {
+    display: flex;
+}
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 85rpx;
+    height: 85rpx;
+    margin-left: 14rpx;
+    margin-top: 14rpx;
+}
+.title-time {
+    flex-direction: column;
+    display: inline-block;
+    margin-left: 14rpx;
+    margin-top: 12rpx;
+    vertical-align: middle;
+    padding: 0;
+    color: #454545;
+}
+.title {
+    display: block;
+    font-size: 30rpx;
+    margin-bottom: 10rpx;
+}
+.time{
+    display: block;
+    font-size: 25rpx;
+}
+.bottom{
+    height: 85rpx;
+    border-top: 1rpx solid #f8f7f7;
+    display: flex;
+    align-items: center;
+
+    
+}
+.bottom-item-content{
+    width: 200rpx;
+    height: 60rpx;
+    margin-right: 30rpx;
+    display: flex;
+}
+.bottom-item-content image{
+    width: 45rpx;
+    height: 45rpx;
+}
+.bottom-item-content text {
+    font-size: 23rpx;
+    vertical-align: middle;
+    margin-top: 10rpx;
+    display: inline-block;   
+}
+.miuser {
+    display: flex;
+}
+.miicon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40rpx;
+    height: 40rpx;
+    margin-left: 14rpx;
+    margin-top: 14rpx;
+}
+.mititle-time {
+    flex-direction: column;
+    display: inline-block;
+    margin-left: 14rpx;
+    margin-top: 12rpx;
+    vertical-align: middle;
+    padding: 0;
+    color: #454545;
+}
+.mititle {
+    display: block;
+    font-size: 25rpx;
+    margin-bottom: 10rpx;
+}
+.mitime{
+    display: block;
+    font-size: 25rpx;
+}
+.box{
+    margin-bottom: 20rpx;
+    background: #fff;
+    padding: 0 30rpx;
+}
+.more{
+    font-size: 30rpx;
+}

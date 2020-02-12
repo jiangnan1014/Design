@@ -1,0 +1,11 @@
+<view class="container">
+    <view class="contnet">
+        <image class="userimg" src="{{data.header}}" ></image>
+        <view class="user">
+            <view class="name">{{data.screen_name}}</view>
+            <view class="number">{{data.fans_count}}人关注</view>
+        </view>
+        <button bind:tap="handleClick" class="to" wx:if="{{isshow}}">关注</button>
+        <button bind:tap="handleClick" class="too" wx:else  >已关注</button>
+    </view>
+</view>

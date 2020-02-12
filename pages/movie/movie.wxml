@@ -1,0 +1,3 @@
+<view>
+    <web-view src="https://m.douban.com/movie/" bindmessage=""></web-view>
+</view>

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-notice-bar": "/vant-ui/notice-bar/index",
+    "v-item":"../../components/Bbs/Bbs"
+  },
+  "navigationBarBackgroundColor":"#333",
+  "navigationBarTitleText": "社区"
+}

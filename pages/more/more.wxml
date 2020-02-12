@@ -1,0 +1,7 @@
+<view class="container" wx:for="{{comment}}" wx:key="item.id" >
+    <view class="user">
+        <image src="{{item.user.profile_image}}" mode="" binderror="" bindload=""></image>
+        <text class="name">{{item.user.username}}:</text>
+    </view>
+    <text class="title">{{item.content}}</text>
+</view>

@@ -1,0 +1,49 @@
+<view class="container">
+        <!-- <view class="contnet" >
+            <image class="userimg" src="../../images/20160827101458.png" ></image>
+            <view class="user">
+                <view class="name">一风之音</view>
+                <view class="number">41324人关注</view>
+            </view>
+         
+            <button bind:tap="handleClick" class="too"   >取消关注</button>
+        </view>
+        <view class="contnet">
+            <image class="userimg" src="../../images/559f25fde479a_mini.jpg" ></image>
+            <view class="user">
+                <view class="name">我是僵小鱼</view>
+                <view class="number">3573人关注</view>
+            </view>
+         
+            <button bind:tap="handleClick" class="too"   >取消关注</button>
+        </view>
+        <view class="contnet">
+            <image class="userimg" src="../../images/5dc92cdb1da2e_mini.jpg" ></image>
+            <view class="user">
+                <view class="name">茶啊二中</view>
+                <view class="number">20213人关注</view>
+            </view>
+         
+            <button bind:tap="handleClick" class="too"   >取消关注</button>
+        </view>
+        <view class="contnet">
+            <image class="userimg" src="../../images/58b92cd849d25_mini.jpg" ></image>
+            <view class="user">
+                <view class="name">东北花泽类</view>
+                <view class="number">452人关注</view>
+            </view>
+         
+            <button bind:tap="handleClick" class="too"   >取消关注</button>
+        </view>
+        <view class="contnet">
+            <image class="userimg" src="../../images/590c3e44acb11_mini.jpg" ></image>
+            <view class="user">
+                <view class="name">星座不求人</view>
+                <view class="number">34517人关注</view>
+            </view>
+         
+            <button bind:tap="handleClick" class="too"   >取消关注</button>
+        </view> -->
+
+        <v-item wx:for="{{user}}" wx:key="item" data="{{item}}"></v-item>
+    </view>

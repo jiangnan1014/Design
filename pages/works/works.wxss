@@ -1,0 +1,7 @@
+.container{
+    text-align: center;
+}
+.title{
+    margin-top: 50rpx;
+    color: #7a7979;
+}

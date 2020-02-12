@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="user-top">
+    <image bindtap="handelimg" src="{{imageUrl}}" mode=""></image>
+    <text class="username" bindtap="handlename">{{name}}</text>
+    <button class="message">编辑资料</button>
+  </view>
+  <input class="chname" focus="true" bindconfirm="handleCilck" bindblur="handleBlur" wx:if="{{isname}}" type="text" />
+  <view class="user">
+    <view bindtap="handleLike">
+      <text>0</text>
+      <view>获赞</view>
+    </view>
+    <view bindtap="handleWorks">
+      <text>0</text>
+      <view>作品</view>
+    </view>
+    <view bindtap="handleGuanzhu">
+      <text>5</text>
+      <view>关注</view>
+    </view>
+    <view bindtap="handleFans">
+      <text>1</text>
+      <view>粉丝</view>
+    </view>
+  </view>
+</view>

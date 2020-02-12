@@ -1,0 +1,35 @@
+<view class='productNav'>
+    <!-- 左侧 -->
+    <view class='left'>
+        <view class="{{active==0?'selected':'normal'}}" id="0" bindtap='switchNav' data-url="?a=list&c=subscribe&category_id=5">搞笑原创</view>
+        <view class="{{active==1?'selected':'normal'}}" id="1" bindtap='switchNav' data-url="?a=list&c=subscribe&category_id=17" >幽默达人</view>
+        <view class="{{active==2?'selected':'normal'}}" id="2" bindtap='switchNav' data-url="?a=list&c=subscribe&category_id=43">生活达人</view>
+        <view class="{{active==3?'selected':'normal'}}" id="3" bindtap='switchNav' data-url="?a=list&c=subscribe&category_id=35">动漫达人</view>
+        <view class="{{active==4?'selected':'normal'}}" id="4" bindtap='switchNav' data-url="?a=list&c=subscribe&category_id=33">音乐频道</view>
+    </view>
+    <!-- 右侧 -->
+    <view class='right'>
+        <view class='type'>
+            <!-- current:当前所在滑块的 index -->
+            <!-- vertical:滑动方向是否为纵向 -->
+            <swiper current='{{currentTab}}' vertical='{{true}}'>
+                <!-- catchtouchmove 阻止弹窗后滚动穿透 -->
+                <swiper-item id="0" catchtouchmove="true">
+                    <v-item wx:for="{{list}}" wx:key="{{item}}" data="{{item}}"></v-item>
+                </swiper-item>
+                <swiper-item id="1" catchtouchmove="true">
+                        <v-item wx:for="{{list}}" wx:key="{{item}}" data="{{item}}"></v-item>
+                </swiper-item>
+                <swiper-item id="2" catchtouchmove="true">
+                        <v-item wx:for="{{list}}" wx:key="{{item}}" data="{{item}}"></v-item>
+                </swiper-item>
+                <swiper-item id="3" catchtouchmove="true">
+                        <v-item wx:for="{{list}}" wx:key="{{item}}" data="{{item}}"></v-item>
+                </swiper-item>
+                <swiper-item id="4" catchtouchmove="true">
+                        <v-item wx:for="{{list}}" wx:key="{{item}}" data="{{item}}"></v-item>
+                </swiper-item>
+            </swiper>
+        </view>
+    </view>
+</view>

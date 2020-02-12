@@ -1,0 +1,5 @@
+<view>    
+    <v-item wx:for="{{test}}" wx:key="index">
+            <view slot="content"><video src="{{item.videouri}}" ></video></view>
+    </v-item>
+</view>

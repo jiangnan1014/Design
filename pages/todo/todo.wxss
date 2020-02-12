@@ -1,0 +1,83 @@
+.top{
+    height: 100rpx;
+}
+form{
+    background: #333;
+    height: 100rpx;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+}
+.input{
+    display: flex;
+}
+.name{
+    color: #fff;
+    font-size: 42rpx;
+    margin-left: 10rpx;
+}
+.top input{
+    height: 60rpx;
+    width: 300rpx;
+    border: 1px solid #333;
+    margin-left: 80rpx;
+    border-radius: 10rpx;
+    background: #fff;
+    padding: 0 20rpx;
+}
+.add{
+    width: 100rpx;
+    height: 64rpx;
+    font-size: 23rpx;
+}
+.content{
+    background: #CDCDCD;
+    height: 1500rpx;
+}
+.proceed{
+    position: relative;
+    padding: 40rpx 20rpx;
+}
+.proceed  text{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    padding: 0 5px;
+    height: 20px;
+    border-radius: 20px;
+    background: #E6E6FA;
+    line-height: 22px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    line-height: 32px;
+    background: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border-left: 5px solid #629A9C;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+}
+checkbox{
+    padding: 10rpx;
+}
+.one button{
+    position: absolute;
+    top: 2;
+    right: 100rpx;
+    width: 100rpx;
+    height: 60rpx;
+    border: 1px double #FFF;
+    background: #CCC;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 23rpx;
+    cursor: pointer;
+    padding: 0;
+}

@@ -1,0 +1,38 @@
+<view class="box">
+    <view class="user">
+        <image class="icon" src="{{data.profile_image}}"></image>
+        <view class="title-time">
+            <text class="title">{{data.name}}</text>
+            <text class="time">{{data.create_time}}</text>
+        </view>
+    </view>
+    <slot name="content"></slot>
+    <view class="bottom">
+        <view class="bottom-item-content">
+            <image class="pic" src="{{isdianzan?'/images/dz.png':'/images/dzz.png'}}" bindtap="dianzan">
+            </image>
+            <!-- <text>{{data.love}}</text> -->
+        </view>
+        <view class="bottom-item-content">
+            <image class="pic" src="{{ischaping?'/images/cp.png':'/images/cpp.png'}}" bindtap="chaping">
+            </image>
+            <!-- <text>{{data.hate}}</text> -->
+        </view>
+        <view class="bottom-item-content">
+            <image class="pic" class="share" bind:tap="handleshare" src="/images/index/mainCellShare.png"></image>
+        </view>
+        <view class="bottom-item-content">
+            <image class="pic" bind:tap="pinglun" src="/images/index/mainCellComment.png"></image>
+        </view>
+    </view>
+    <view  wx:if="{{ispinglun}}">
+        <view class="miuser" wx:for="{{comment}}" wx:key="{{item.id}}">
+            <image class="miicon" src="{{item.user.profile_image}}"></image>
+            <view class="mititle-time">
+                <text class="mititle">{{item.user.username}}:{{item.content}}</text>
+            </view>
+        </view>
+        <view class="more"  bind:tap="handleMore" >更多...</view>
+        <!-- <text class="mitime"></text> -->
+    </view>
+</view>

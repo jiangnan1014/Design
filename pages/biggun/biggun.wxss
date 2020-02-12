@@ -1,0 +1,32 @@
+.productNav{
+    display: flex;
+    flex-direction: row;
+    font-family: "Microsoft YaHei"
+  }
+  .left{
+    width: 25%;
+    font-size: 30rpx;
+    background-color: #f4f4f4;
+  }
+  .left view{
+    text-align: center;
+    height: 90rpx;
+    line-height: 90rpx;
+  }
+  .selected{
+    background-color: #fff;
+    border-left: 2px solid #E54847;
+    font-weight: bold;
+    color: #E54847;
+  }
+  .normal{
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  .right{
+    width:75%;
+    margin: 0;
+  }
+  swiper{
+    height: 500px;
+  }

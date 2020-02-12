@@ -1,0 +1,16 @@
+function total(value) {
+    var data = value.filter(function (item) {
+        return item.isTodo
+    })
+    return data.length;
+}
+function another(value) {
+    var data = value.filter(function (item) {
+        return !item.isTodo
+    })
+    return data.length
+}
+module.exports = {
+    total: total,
+    another: another
+}

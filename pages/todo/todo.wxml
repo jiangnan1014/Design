@@ -1,0 +1,31 @@
+<wxs src="../../utils/num.wxs" module="Toggle"></wxs>
+
+<view class="top">
+    <form bind:submit="handleSubmit">
+        <view class="input">
+            <text class="name">ToDoList</text>
+            <input value="{{value}}" type="text" name="keyword" placeholder="添加ToDo"/>
+            <button class="add" form-type="submit">搜索</button>
+        </view>
+    </form>
+</view>
+<view class="content">
+    <view class="proceed ">正在进行<text>{{Toggle.total(list)}}</text></view>
+    <view hidden="{{!item.isTodo}}" wx:for="{{list}}" wx:key="index" class="one">
+            <checkbox checked="{{!item.isTodo}}" bind:tap="handleClick" data-id="{{item.id}}">
+                </checkbox>
+        <text>{{item.name}}</text>
+        <button bind:tap="handledel" data-id="{{item.id}}">删除</button>
+    </view>
+
+
+    <view class="proceed ">已经完成<text>{{Toggle.another(list)}}</text></view>
+    <view hidden="{{item.isTodo}}" wx:for="{{list}}" wx:key="index" class="one">
+        <checkbox checked="{{!item.isTodo}}" bind:tap="handleClick" data-id="{{item.id}}">
+        </checkbox>
+        <text>{{item.name}}</text>
+        <button bind:tap="handledel" data-id="{{item.id}}">删除</button>
+    </view>
+
+
+</view>

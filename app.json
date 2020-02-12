@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/test/test",
+    "pages/humor/humor",
+    "pages/biggun/biggun",
+    "pages/my/my",
+    "pages/play/play",
+    "pages/more/more",
+    "pages/like/like",
+    "pages/works/works",
+    "pages/guanzhu/guanzhu",
+    "pages/fans/fans",
+    "pages/todo/todo",
+    "pages/gank/gank",
+    "pages/gankdetail/gankdetail",
+    "pages/xinxian/xinxian",
+    "pages/music/music",
+    "pages/movie/movie"
+ 
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "borderStyle": "white",
+    "selectedColor": "rgb(176,170,168)",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/humor/humor",
+        "text": "娱乐",
+        "iconPath": "images/tabBar/tabBar_essence_click_icon.png",
+        "selectedIconPath": "images/tabBar/tabBar_essence_icon.png"
+      },
+      {
+        "pagePath": "pages/biggun/biggun",
+        "text": "达人",
+        "iconPath": "images/tabBar/tabBar_friendTrends_click_icon.png",
+        "selectedIconPath": "images/tabBar/tabBar_friendTrends_icon.png"
+      },
+      {
+        "pagePath": "pages/play/play",
+        "text": "社区",
+        "iconPath": "images/tabBar/tabBar_new_click_icon.png",
+        "selectedIconPath": "images/tabBar/tabBar_new_icon.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我",
+        "iconPath": "images/tabBar/tabBar_me_click_icon.png",
+        "selectedIconPath": "images/tabBar/tabBar_me_icon.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+  
+}

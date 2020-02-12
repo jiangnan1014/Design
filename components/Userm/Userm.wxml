@@ -1,0 +1,10 @@
+<view class="container" wx:if="{{isshow}}">
+        <view class="contnet">
+            <image class="userimg" src="{{data.pic}}" ></image>
+            <view class="user">
+                <view class="name">{{data.name}}</view>
+                <view class="number">{{data.number}}人关注</view>
+            </view>
+            <button bind:tap="handleClick" class="to" >取消关注</button>
+        </view>
+    </view>

@@ -1,0 +1,10 @@
+<view class="container">
+    <view class="content">
+        <image class="bgimg" src="{{data.pic}}" mode=""></image>
+       <view>
+        <text class="name">{{data.name}}</text>
+        <view class="title">{{data.num}}</view>
+       </view>
+        
+    </view>
+</view>

@@ -1,0 +1,3 @@
+<view>
+    <web-view src="http://m.htqyy.com/top/recom" bindmessage=""></web-view>
+</view>

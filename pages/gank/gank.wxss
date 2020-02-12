@@ -1,0 +1,31 @@
+.container{
+    background: #ebebeb;
+}
+
+.content{
+    background: #fff;
+    margin-top: 30rpx;
+    width: 100%;
+    padding: 20rpx;
+}
+.name{
+    font-size: 30rpx;
+    color: #6e6e6e;
+}
+.time{
+    font-size: 23rpx;
+    color: #6e6e6e;
+}
+.big{
+    font-size: 50rpx;
+    color:#272626;
+    text-align: center;
+}
+.user{
+    display: flex;
+    align-content: center;
+}
+.userimg{
+    width:85rpx ;
+    height: 85rpx;
+}

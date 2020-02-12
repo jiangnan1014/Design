@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-item":"/components/Userm/Userm"
+  },
+  "navigationBarBackgroundColor":"#405F80",
+  "navigationBarTitleText": "关注"
+}
